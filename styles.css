@@ -1,0 +1,56 @@
+body {
+	background: black;
+	font-family: "Signika Negative";
+}
+
+.postcard {
+	background: white;
+	width: 400px;
+	height: 300px;
+	margin: auto;
+}
+
+.postcard-header {
+	display: flex;
+}
+
+.postcard-header img {
+	width: 50px;
+	height: 50px;
+	margin: 10px;
+}
+
+.postcard-header h1 {
+	width: 300px;
+	height: 40px;
+	margin: auto;
+}
+
+.postcard-body {
+	display: flex;
+}
+
+.body-left p:first-child {
+	margin-top: 0;
+}
+
+.body-left,
+.body-right {
+	padding: 5px 10px;
+}
+
+input {
+	border: none;
+	border-bottom: 1px solid grey;
+}
+
+.postcard-footer {
+	text-align: center;
+}
+
+button {
+	background-color: rgb(207, 201, 201);
+	padding: 10px;
+	border: none;
+	cursor: pointer;
+}
